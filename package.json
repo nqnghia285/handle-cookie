@@ -17,8 +17,7 @@
         "preversion": "yarn lint",
         "version": "yarn format && git add -A src",
         "postversion": "git push && git push --tags",
-        "git": "git add -A && git commit -m \"Setup Package\" && git push",
-        "publish": "git add . && git commit -m \"update\" && git push"
+        "git": "git add -A && git commit -m \"Setup Package\" && git push"
     },
     "dependencies": {
         "cookie": "^0.4.1"
