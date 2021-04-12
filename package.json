@@ -1,6 +1,6 @@
 {
     "name": "handle-cookie",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Parse string to cookie object",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -10,10 +10,7 @@
     "private": false,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "tsc",
-        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-        "lint": "tslint -P tsconfig.json",
-        "prepare": "yarn build",
+        "prepare": "tsc",
         "preversion": "yarn lint",
         "version": "yarn format && git add -A src",
         "postversion": "git push && git push --tags",
@@ -28,7 +25,7 @@
     "files": [
         "dist"
     ],
-    "devDependencies": {
+    "dependencies": {
         "@types/cookie": "^0.4.0",
         "cookie": "^0.4.1"
     }
