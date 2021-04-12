@@ -19,10 +19,6 @@
         "postversion": "git push && git push --tags",
         "git": "git add -A && git commit -m \"Setup Package\" && git push"
     },
-    "dependencies": {
-        "@types/cookie": "^0.4.0",
-        "cookie": "^0.4.1"
-    },
     "homepage": "https://github.com/nqnghia285/handle-cookie.git#readme",
     "keywords": [
         "handle-cookie",
@@ -31,5 +27,9 @@
     ],
     "files": [
         "dist"
-    ]
+    ],
+    "devDependencies": {
+        "@types/cookie": "^0.4.0",
+        "cookie": "^0.4.1"
+    }
 }
