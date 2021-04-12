@@ -1,6 +1,6 @@
 {
     "name": "handle-cookie",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Parse string to cookie object",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
