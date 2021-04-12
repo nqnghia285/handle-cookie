@@ -1,6 +1,6 @@
 {
     "name": "handle-cookie",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Parse string to cookie object",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -20,10 +20,8 @@
         "git": "git add -A && git commit -m \"Setup Package\" && git push"
     },
     "dependencies": {
+        "@types/cookie": "^0.4.0",
         "cookie": "^0.4.1"
-    },
-    "devDependencies": {
-        "@types/cookie": "^0.4.0"
     },
     "homepage": "https://github.com/nqnghia285/handle-cookie.git#readme",
     "keywords": [
