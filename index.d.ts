@@ -1,4 +1,3 @@
-/// <reference path="index.ts" />
 /// <reference types="cookie" />
 
 import { CookieParseOptions, CookieSerializeOptions } from "cookie";
