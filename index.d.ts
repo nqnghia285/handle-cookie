@@ -1,5 +1,3 @@
-/// <reference types="cookie" />
-
 import { CookieParseOptions, CookieSerializeOptions } from "cookie";
 
 /**
@@ -8,7 +6,7 @@ import { CookieParseOptions, CookieSerializeOptions } from "cookie";
  * @param option
  * @returns any
  */
-export function cookieParse(str: string | undefined, option?: CookieParseOptions | undefined): { [key: string]: string } | undefined;
+export declare function cookieParse(str: string | undefined, option?: CookieParseOptions | undefined): { [key: string]: string } | undefined;
 
 /**
  * @method cookieSerialize: Convert object to cookie string
@@ -17,4 +15,4 @@ export function cookieParse(str: string | undefined, option?: CookieParseOptions
  * @param option
  * @returns any
  */
-export function cookieSerialize(name: string | undefined, value: string | undefined, option?: CookieSerializeOptions | undefined): string | undefined;
+export declare function cookieSerialize(name: string | undefined, value: string | undefined, option?: CookieSerializeOptions | undefined): string | undefined;
